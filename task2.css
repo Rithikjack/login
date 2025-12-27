@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.outer{
+    background-color: blanchedalmond;
+    height: 100vh;
+    position: relative;
+}
+.inner{
+    height: 50vh;
+    background-color: violet;
+
+}
+.center{
+    height: 85%;
+    width: 75%;
+    background-color: white;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+
+    display: flex;
+    box-shadow: 0px 4px 10px black;
+}
+.center > .left{
+    flex-basis: 45%;
+    /* background-color: rgb(244, 244, 244); */
+    display: flex;
+    flex-direction: column  ;
+    justify-content: center;
+    align-items: center;
+}
+.left1{
+    height: auto;
+    width: 55%;
+    /* background-color: aquamarine; */
+}
+.center h1{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    margin-bottom: 25px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+form label{
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    font-weight: bold;
+    margin-bottom: 7px;
+    font-size: 18px;
+ 
+}
+form input{
+    padding: 12px;
+    border-radius: 5px;
+    height: 35px;
+    margin-bottom: 20px;
+    /* border: 2px solid aquamarine; */
+    border: none;
+    outline: 2px solid turquoise;
+}
+form button{
+    height: 40px;
+    font-weight: bold;
+    background-color: rgb(45, 130, 226);
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 5px;
+    font-size: 19px;
+    margin-bottom: 25px;
+    cursor: pointer;
+
+}
+form button:hover{
+    background-color: rgb(0, 104, 69);
+}
+.down{
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+}
+.down p{
+     text-transform: capitalize;
+     font-weight: bold;
+    font-size: 15px;
+
+}
+.down a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.center > .right{
+    flex-basis: 55%;
+    /* background-color: rgb(0, 255, 38); */
+}
+.right img{
+    height: 60%;
+    width: 90%;
+    object-fit: cover;
+    object-position: top;
+
+}
+.right h1 {
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-size: 30px;
+
+
+}
+.right p{
+    font-size: 17px;
+    letter-spacing: 1.4px;
+    margin-bottom: 20px;
+
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+footer >.line{
+    background-color: blue;
+    height: 4px;
+    width: 120px;
+    border-radius: 4px;
+
+}
+.footer{
+    height: 50vh;
+    background-color: lightblue;
+}
